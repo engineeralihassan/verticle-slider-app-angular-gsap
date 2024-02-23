@@ -27,7 +27,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/gsap/dist/gsap.min.js",
+            "node_modules/gsap/dist/ScrollTrigger.min.js",
+            "node_modules/gsap/dist/Draggable.min.js"]
           },
           "configurations": {
             "production": {
